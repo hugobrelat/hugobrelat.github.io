@@ -1,0 +1,110 @@
+*  {
+	box-sizing: border-box;
+}
+
+body  {
+	
+	font-family:"Montserrat",sans-serif;
+	color: rgba(0, 0,0, 0.87);
+	line-height: 1.6;
+	margin: 0;
+}
+
+.topbar {
+	position: fixed;
+	background-color: white;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 30px 87px;
+}
+
+.topbar nav {
+	float: left;
+	font-size: 20px;
+}
+.topbar  nav a {
+	color:#9F9F9F;
+	text-decoration: none;
+	font-weight: 500;
+	margin: 0 53px;
+	line-height: 23px;
+	
+
+
+}
+.topbar  nav a:hover, .topbar nav a.active {
+	color:#000 ;
+}
+
+
+.social {
+	float: right;
+	
+}
+.social a{
+	padding: 0px 12px ;
+	opacity: .50;
+}
+.social a:hover {
+	opacity: 1;
+}
+
+.baniere {
+	width: 100%;
+	height: 427px;
+	background: no-repeat center center / cover url(baniere.jpg);
+}
+
+.main {
+	float: left;
+	background: #F8F8F8;
+	width: 60%;
+	border: solid 4px black;
+}
+.sidebar {
+	float: right;
+	background:#CCC;
+	width: 40%;
+	padding: 40px;
+	border: solid 4px black;
+}
+.sidebar title {
+	font-size: 30px;
+	color: #000;
+	margin-top: 35px 0;
+}
+.sidebar title:first-child{
+		margin:0;
+		padding-top:0 ;
+}
+.sidebar title:first-child{
+	
+	padding-bottom:0 ;
+}
+.sidebar ul{
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 2.3;
+}
+.sidebar ul  li{
+	padding: 6px, 0;
+}
+
+.sidebar a{
+	color:#9F9F9F;
+	text-decoration: none;
+}
+.sidebar a:hover{
+	text-decoration: underline;
+}
+
+
+
+.footer	{
+	clear: both;
+	background: #000;
+}
